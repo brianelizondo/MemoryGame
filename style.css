@@ -1,0 +1,107 @@
+body{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  color: aqua;
+  text-align: center;
+  background-color:black;
+  margin: 0px 0px 0px 0px;
+  padding: 15px 0px;
+}
+
+#gameMenu{
+  background-color: lightgrey;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px;
+}
+#lowestScore{
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  padding-bottom: 10px;
+  width: 45%;
+  display: inline-block;
+}
+#resetButtonDiv{
+  width: 45%;
+  text-align: right;
+  display: inline-block;
+}
+#resetButtonDiv button{
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+#resetButtonDiv button:hover{
+  background-color: aqua;
+  transition: all 500ms;
+  cursor: pointer;
+}
+#score{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  background-color: aqua;
+  border-bottom: 5px grey solid;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+#game{
+  text-align: center;
+  width: 100%;
+}
+#startGame{
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 40px 15px 40px;
+  margin-top: 75px;
+}
+#startGame:hover{
+  background-color: aqua;
+  transition: all 500ms;
+  cursor: pointer;
+}
+#game div {
+  border: 4px solid black;
+  border-radius: 10px;
+  background: url('card_pattern.jpg') no-repeat center center;
+  width: 15%;
+  height: 150px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.red-Up{
+  transition: all 500ms;
+  background-color: red !important;
+  background-image: none !important;
+}
+.blue-Up{
+  transition: all 500ms;
+  background-color: blue!important;
+  background-image: none !important;
+}
+.green-Up{
+  transition: all 500ms;
+  background-color: green!important;
+  background-image: none !important;
+}
+.orange-Up{
+  transition: all 500ms;
+  background-color: orange!important;
+  background-image: none !important;
+}
+.purple-Up{
+  transition: all 500ms;
+  background-color: purple!important;
+  background-image: none !important;
+}
